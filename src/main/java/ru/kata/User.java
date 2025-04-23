@@ -1,16 +1,18 @@
+package ru.kata;
+
 public class User {
     private Long id;
     private String name;
-    private String lasName;
+    private String lastName;
     private Byte age;
 
     public User() {
     }
 
-    public User(Long id, String name, String lasName, Byte age) {
+    public User(Long id, String name, String lastName, Byte age) {
         this.id = id;
         this.name = name;
-        this.lasName = lasName;
+        this.lastName = lastName;
         this.age = age;
     }
 
@@ -30,12 +32,12 @@ public class User {
         this.name = name;
     }
 
-    public String getLasName() {
-        return lasName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLasName(String lasName) {
-        this.lasName = lasName;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
     public Byte getAge() {
